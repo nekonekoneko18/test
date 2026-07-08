@@ -37,7 +37,7 @@ async function searchBooks() {
         results.innerHTML =
             "<pre>" + JSON.stringify(data, null, 2) + "</pre>";
 
-        alert("取得成功！");
+       alert(JSON.stringify(data));
 
     } catch (error) {
 
