@@ -1,3 +1,4 @@
+alert("script.js が読み込まれました");
 const button = document.getElementById("searchButton");
 
 button.addEventListener("click", searchBooks);
